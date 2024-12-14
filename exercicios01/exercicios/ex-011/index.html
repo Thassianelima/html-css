@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>iMAGEM DINAMICA</h1>
+<P>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</P>
+
+<picture>
+   <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png"> 
+    <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+    <img src="imagens/fotog.png" alt="imagem flexivel"></picture>
+
+    <!-- para que a imagem G se adapte a tela (computador tablet celular) usamos source media type = max-width: 1000px srcset= imagem de tamanho medio type =image/png -->
+<!-- sempre do menor para o maior, souce media fotop 750px , sorce media fotom 1050px, img src fotog-->
+
+<H1>Reproduzindo audios em HTML5</H1>
+    <p>vamos aprender a reproduzir audios m HTML5</p>
+<audio src="midia/Coringa (Joker) - Vídeo Motivacional Para Status whatsapp -.mp3" controls
+ autoplay></audio>
+
+<!-- para colocarmos audio numa pagina usamos a tag audio em src colocamos o mp3, tag controls para aparecer o controle de play e o autoplay para assim que abrir a pagina tocar.-->
+<!-- formatos mp3 wav OGG-->
+
+
+
+
+
+</body>
+</html>

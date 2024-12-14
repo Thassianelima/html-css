@@ -1,0 +1,67 @@
+@charset 'UTF-08';
+
+/* em html é id em css vira # (so pode um elemento por pagina)
+tudo em html é class em css é .*/
+
+
+body{
+    background-color: rgb(190, 236, 119);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+color: rgb(16, 88, 16);
+}
+
+#principal {
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+}
+
+h2{
+color: rgb(63, 136, 63);
+text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.basico{
+    background-color: aliceblue;
+    color: rgb(68, 107, 8);
+    font-weight: bold;
+}
+
+.intermediario{
+    background-color: aliceblue;
+    color: rgb(211, 94, 51);
+}
+
+.avançado{
+    background-color: aliceblue;
+    color: red;
+}
+
+.destaque{
+    background-color: #bbbb3075;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
